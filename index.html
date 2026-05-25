@@ -18,6 +18,7 @@
 				--zip-bg: #edf5ff;
 				--xlsx-bg: #eefaf3;
 				--pdf-bg: #fdeff2;
+				--web-bg: #eef2ff;
 			}
 
 			* {
@@ -211,6 +212,10 @@
 				background: var(--pdf-bg);
 			}
 
+			.btn-web {
+				background: var(--web-bg);
+			}
+
 			.badge {
 				display: inline-flex;
 				align-items: center;
@@ -233,6 +238,10 @@
 
 			.badge-pdf {
 				background: #7a2c39;
+			}
+
+			.badge-web {
+				background: #3a4c8f;
 			}
 
 			.label {
@@ -354,6 +363,7 @@
 					<span class="legend-item"><span class="badge badge-zip">ZIP</span>Archivy</span>
 					<span class="legend-item"><span class="badge badge-xlsx">XLSX</span>Tabulky</span>
 					<span class="legend-item"><span class="badge badge-pdf">PDF</span>Dokumenty</span>
+					<span class="legend-item"><span class="badge badge-web">WEB</span>Odkazy</span>
 				</div>
 				<nav class="section-nav" aria-label="Rychlá navigace">
 					<a href="#dc1">DC1</a>
@@ -433,7 +443,18 @@
 
 				<div id="dc3-ps1" class="subsection">
 					<h3>PS1</h3>
-					<p class="note">Pro PS1 zde data nejsou k dispozici.</p>
+					<p class="note">Data pro PS1 jsou dostupná na externím webu.</p>
+					<div class="file-grid">
+						<a
+							class="file-button btn-web"
+							href="https://www.geoinformatics.upol.cz/dprace/bakalarske/kostal25/"
+							target="_blank"
+							rel="noopener"
+						>
+							<span class="badge badge-web">WEB</span>
+							<span class="label">data</span>
+						</a>
+					</div>
 				</div>
 
 				<div id="dc3-ps2" class="subsection">
